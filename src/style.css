@@ -1,1 +1,58 @@
-/* Acá van tus reglas de estilo */
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg)no-repeat;
+    background-size: contain;
+    font-family: sans-serif;
+    height: 100vh;
+    
+    }
+.login{
+    width: 320px;
+    height: 420px;
+    background:#005696;
+    color: #ffffff;
+    top: 150px;
+    left: 35%;
+    bottom: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px
+}
+
+.login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+   
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.mensaje{
+    text-align: center;
+    transform: translate(-10px, 300px);
+}
+.hide{
+    display: none;
+}
+footer{
+    text-align: -webkit-right;
+    margin-top: 590px;
+    color: #021d31;
+}

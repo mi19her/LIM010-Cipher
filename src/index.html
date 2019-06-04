@@ -7,9 +7,29 @@
   </head>
   <body>
     <header></header>
-    <main></main>
-    
-    <footer></footer>
+    <main>
+    <section class="login" id="page1">
+      <img class="logo" src="../img/logo.png" alt="logoWifi">
+          <h1>EnCr¡Pt@WIFI</h1>
+          <p>Hola, es momento de crear tu clave Wifi
+             comenzemos :D ¡ </p>
+          <form>
+              <label for="password">Ingrese Contraseña</label>
+              <input type="password" placeholder=" Password" id="secreto"/>
+              <input type="submit" value="Ingresar" id="ingreso"> 
+              <span class="tooltip" id="si"></span>
+          </form>
+    </section>
+    <section class="mensaje hide" id="mensaje">
+        
+        <textarea name="ingresa texto" rows="10" cols="40">Escribe tu texto</textarea>
+        <input type="number" min="1"max="25" step="1" value="1">
+
+    </section>
+  </main>
+    <footer>
+      <p>by@MilcaPulido</p>
+    </footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
