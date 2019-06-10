@@ -53,17 +53,16 @@ body{
     width: 100%;
     margin-top: 20px;
     border: 3px solid #ffffff;
-    background: #204282;
     height: 42px;
     color: #ffffff;
     font-size: 16px;
     font-family:'Merienda', cursive;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
 }
+
 .mensaje{
     width: 700px;
-    height: 320px;
-    background:hsl(197, 39%, 83%);
-    color:#7094d6;
+    color:#204282;
     top: 250px;
     left: 24%;
     bottom: 100%;
@@ -73,27 +72,54 @@ body{
 }
 .resultado{
     width: 700px;
-    height: 320px;
-    background:hsl(197, 39%, 83%);
     color:#204282;
     top: 250px;
-    left: 34%;
+    left: 19%;
     bottom: 100%;
     position: absolute;
     box-sizing: border-box;
     padding: 30px 30px;
+}
+p{
+    float: right;
 }
 textarea{
     background: white;
     border-radius: 10px 10px 10px 10px;
     border-style: none solid solid none;
     padding: 15px 15px;
+    font-family: 'Merienda', cursive;
+    float: left;
+   
 }
 .hide{
     display: none;
 }
+
+button{
+    border: 3px solid #ffffff;
+    height: 42px;
+    margin: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family:'Merienda', cursive;
+    border-radius: 10px;
+    float: RIGHT;
+    width: calc(53% - 180px);
+    background-image: linear-gradient(132deg, #4543d4 0%, #ab2518 100%);
+
+}
+
 footer{
     text-align: -webkit-right;
     margin-top: 590px;
     color: #021d31;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    color: #021d31;
+    font-size: 16px;
+    font-family:'Merienda', cursive;
 }

@@ -18,19 +18,21 @@
           <form>
               <label for="password">Ingrese Contraseña</label>
               <input type="password" placeholder=" Password" id="secreto"/>
-              <button type="submit" id="ingreso"> INGRESAR </button>
+              <button type="submit" id="ingreso" > INGRESAR </button>
               <span class="tooltip" id="si"></span>
           </form>
     </section>
     <section class="mensaje hide" id="page2">
         <textarea id="ingresaTexto" name="ingresa texto" rows="10" cols="40" placeholder="Escribe tu texto"></textarea>
-        <p>N° de Cifrado<input id="escala" type="number" min="1"max="25" step="1" value="1"></p>
+        <p>N° de Cifrado: <input id="escala" type="number" min="1"max="25" step="1" value="1"></p>
         <button type="submit" id="cifrar"> ¿CIFRAR? </button>
         <button type="submit" id="descifrar"> ¿ DESCIFRAR ? </button>
     </section>
     <form name="fin" class="resultado hide" id="page3" >
         <textarea id="resultado" name="cifrado" rows="10" cols="40"></textarea>
         <button id="copiar"> COPIAR </button>
+        <p id="copiado"></p>
+        <button id="volver"> VOLVER </button>
     </form>
   </main>
     <footer>
