@@ -10,21 +10,21 @@
     <header><h1>EnCr¡Pt@WIFI
       <img class="logo" src="../img/logo.png" alt="logoWifi"></h1>
     </header>
-    
     <main>
     <section class="login" id="page1">
           <p>Hola, es momento de crear tu clave Wifi
              comenzemos :D ¡ </p>
           <form>
               <label for="password">Ingrese Contraseña</label>
-              <input type="password" placeholder=" Password" id="secreto"/>
+              <input type="password" placeholder=" Password" id="secreto">
               <button type="submit" id="ingreso" > INGRESAR </button>
               <span class="tooltip" id="si"></span>
           </form>
     </section>
     <section class="mensaje hide" id="page2">
         <textarea id="ingresaTexto" name="ingresa texto" rows="10" cols="40" placeholder="Escribe tu texto"></textarea>
-        <p>N° de Cifrado: <input id="escala" type="number" min="1"max="25" step="1" value="1"></p>
+        <p>N° de Cifrado: </p>
+        <input id="escala" type="number" min="1" max="25" step="1" value="1">
         <button type="submit" id="cifrar"> ¿CIFRAR? </button>
         <button type="submit" id="descifrar"> ¿ DESCIFRAR ? </button>
     </section>

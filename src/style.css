@@ -8,8 +8,7 @@ body{
     background: url(../img/fondo.jpg)center no-repeat;
     background-size: cover;
     font-family: 'Merienda', cursive;
-    height:100vh;
-    
+    height:100vh;    
     }
 .login{
     width: 420px;
@@ -30,12 +29,10 @@ body{
     margin-bottom: -20px;
     -webkit-transform: rotate(45deg);
 }
-
 .login label{
     margin: 0;
     padding: 0;
-    font-weight: bold;
-   
+    font-weight: bold;  
 }
 .login input{
     width: 100%;
@@ -59,7 +56,6 @@ body{
     font-family:'Merienda', cursive;
     background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
 }
-
 .mensaje{
     width: 700px;
     color:#204282;
@@ -89,13 +85,11 @@ textarea{
     border-style: none solid solid none;
     padding: 15px 15px;
     font-family: 'Merienda', cursive;
-    float: left;
-   
+    float: left;  
 }
 .hide{
     display: none;
 }
-
 button{
     border: 3px solid #ffffff;
     height: 42px;
@@ -107,9 +101,7 @@ button{
     float: RIGHT;
     width: calc(53% - 180px);
     background-image: linear-gradient(132deg, #4543d4 0%, #ab2518 100%);
-
 }
-
 footer{
     text-align: -webkit-right;
     margin-top: 590px;

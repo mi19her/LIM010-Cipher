@@ -1,6 +1,7 @@
 const claveCorecta= "LABORATORIA";
 let intento = 0;
 //funcion lee clave corecta 
+const ingreso=document.getElementById('ingreso');
 ingreso.addEventListener('click',(evento)=>{
     evento.preventDefault();
 const clave= document.getElementById("secreto").value;
@@ -19,7 +20,7 @@ else{
     }
 }
 })
-
+const cifrar=document.getElementById('cifrar');
 cifrar.addEventListener('click',()=>{
     const texto= document.getElementById('ingresaTexto').value.toUpperCase();
     const numero= parseInt(document.getElementById('escala').value);
@@ -28,8 +29,8 @@ cifrar.addEventListener('click',()=>{
     document.getElementById('page3').classList.remove('hide');
     document.getElementById('page2').classList.add('hide');
     document.getElementById('resultado').value=result;
-    
 });
+const descifrar=document.getElementById('descifrar');
 descifrar.addEventListener('click',()=>{
     const texto= document.getElementById('ingresaTexto').value.toUpperCase();
     const numero= parseInt(document.getElementById('escala').value);
@@ -39,14 +40,14 @@ descifrar.addEventListener('click',()=>{
     document.getElementById('page2').classList.add('hide');
     document.getElementById('resultado').value=result;
 });
-
+const copiar=document.getElementById('copiar');
 copiar.addEventListener('click',(evento)=>{
     evento.preventDefault();
     const TextoCop= document.getElementById('resultado');
     TextoCop.select();
     document.execCommand('copy'); 
 }) 
-
+const volver=document.getElementById('volver');
 volver.addEventListener('click',(evento)=>{
     document.getElementById('ingresaTexto').value ='';
     document.getElementById('resultado').value='';
@@ -56,5 +57,3 @@ volver.addEventListener('click',(evento)=>{
     document.getElementById('page3').classList.add('hide');
     document.getElementById('page2').classList.remove('hide');
 })
-  
-
