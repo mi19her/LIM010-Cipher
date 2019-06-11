@@ -13,7 +13,7 @@ body{
 .login{
     width: 420px;
     height: 320px;
-    background:hsl(197, 39%, 83%);
+    background:#4ae87a66;
     color:#204282;
     top: 250px;
     left: 34%;
@@ -55,30 +55,70 @@ body{
     font-size: 16px;
     font-family:'Merienda', cursive;
     background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 30ms;
+}
+.login button:hover{
+    transform: translate(10px);
+    box-shadow: 0px 30px 5px -15px rgba(4, 17, 17, 0.3);
+}
+input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    color: #021d31;
+    font-size: 16px;
+    font-family:'Merienda', cursive;
+    display: inline-block;
+    padding-left: 10px;
 }
 .mensaje{
-    width: 700px;
+    height: 320px;
+    background: #8079de59;
+    width: 650px;
     color:#204282;
     top: 250px;
-    left: 24%;
+    left: 26%;
     bottom: 100%;
     position: absolute;
     box-sizing: border-box;
     padding: 30px 30px;
 }
-.resultado{
-    width: 700px;
-    color:#204282;
-    top: 250px;
-    left: 19%;
-    bottom: 100%;
-    position: absolute;
-    box-sizing: border-box;
-    padding: 30px 30px;
+.btn{
+    border: 3px solid #ffffff;
+    height: 42px;
+    margin: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family:'Merienda', cursive;
+    border-radius: 10px;
+    float: RIGHT;
+    width: calc(53% - 180px);
+    background-image: linear-gradient(132deg, #4543d4 0%, #84de79 100%);
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.btn:hover{
+    color: #010117;
 }
 .mensaje p{
     display: inline-block;
     margin-left: 50px;
+    COLOR: antiquewhite;
+}
+.resultado{
+    height: 320px;
+    background-image: linear-gradient(132deg, #ab2518 0%, #3966e48c 100%);
+    width: 700px;
+    top: 250px;
+    left: 25%;
+    bottom: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px 30px;
 }
 textarea{
     background: white;
@@ -91,7 +131,7 @@ textarea{
 .hide{
     display: none;
 }
-button{
+.boton{
     border: 3px solid #ffffff;
     height: 42px;
     margin: 8px;
@@ -101,20 +141,19 @@ button{
     border-radius: 10px;
     float: RIGHT;
     width: calc(53% - 180px);
-    background-image: linear-gradient(132deg, #4543d4 0%, #ab2518 100%);
+    background-image: linear-gradient(132deg, #bd072885 0%, #005c99 100%);
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.boton:hover{
+    outline: none;
+    transform: translate(10px);
+    box-shadow: 0px 30px 5px -15px rgba(4, 17, 17, 0.3);
 }
 footer{
     text-align: -webkit-right;
     margin-top: 590px;
     color: #021d31;
-}
-input{
-    border: none;
-    border-bottom: 1px solid #ffffff;
-    background: transparent;
-    color: #021d31;
-    font-size: 16px;
-    font-family:'Merienda', cursive;
-    display: inline-block;
-    padding-left: 10px;
 }
