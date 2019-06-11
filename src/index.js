@@ -48,9 +48,9 @@ copiar.addEventListener('click',(evento)=>{
 }) 
 
 volver.addEventListener('click',(evento)=>{
-    document.getElementById('ingresaTexto').value =' ';
-    document.getElementById('resultado').value=' ';
-    document.getElementById('escala').value=' ';
+    document.getElementById('ingresaTexto').value ='';
+    document.getElementById('resultado').value='';
+    document.getElementById('escala').value='';
     evento.preventDefault();
     document.getElementById('page1').classList.add('hide');
     document.getElementById('page3').classList.add('hide');
