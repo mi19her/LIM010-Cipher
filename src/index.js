@@ -51,7 +51,7 @@ const volver=document.getElementById('volver');
 volver.addEventListener('click',(evento)=>{
     document.getElementById('ingresaTexto').value ='';
     document.getElementById('resultado').value='';
-    document.getElementById('escala').value='';
+    document.getElementById('escala').value=1;
     evento.preventDefault();
     document.getElementById('page1').classList.add('hide');
     document.getElementById('page3').classList.add('hide');

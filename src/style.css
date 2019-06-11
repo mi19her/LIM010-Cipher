@@ -76,8 +76,9 @@ body{
     box-sizing: border-box;
     padding: 30px 30px;
 }
-p{
-    float: right;
+.mensaje p{
+    display: inline-block;
+    margin-left: 50px;
 }
 textarea{
     background: white;
@@ -114,4 +115,6 @@ input{
     color: #021d31;
     font-size: 16px;
     font-family:'Merienda', cursive;
+    display: inline-block;
+    padding-left: 10px;
 }
