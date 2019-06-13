@@ -1,16 +1,20 @@
 window.cipher = {
   encode: (numero, texto) => {
-    /* Acá va tu código que cifra*/
     let textoCodificado ="";
-    for (let i = 0; i < texto.length; i++) {
+    /*repeticion para correr por cada letra ingresada*/
+    for (let i = 0; i<texto.length; i++) {
+      /*posicion de letra que se ingresa*/
       let l = texto.charCodeAt(i);
+      /*posicion de la letra en el alfabeto*/
       let letra = texto.charAt(i);
+      /*si hay espacios en el texto*/
       if(letra != " "){
-        textoCodificado += String.fromCharCode((l - 65 + numero) % 26 + 65);
+        /*formula para devolver el valor codificado */
+        textoCodificado += String.fromCharCode((l - 65 + numero)% 26 + 65);
       }else{
         textoCodificado +=" ";
+       }
       }
-    }
     return textoCodificado;
   },
   decode: (numero, texto) => {

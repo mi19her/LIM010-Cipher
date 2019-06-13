@@ -23,7 +23,7 @@ else{
 })
 const cifrar=document.getElementById('cifrar');
 cifrar.addEventListener('click',()=>{
-    const texto= document.getElementById('ingresaTexto').value.toUpperCase();
+    const texto= document.getElementById('ingresaTexto').value;
     const numero= parseInt(document.getElementById('escala').value);
     //conexion con el cipher
    let result = cipher.encode(numero, texto);

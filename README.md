@@ -6,13 +6,13 @@ Para alguna personas es tedioso crear Contraseñas de WIFI, no toman en cuenta l
 
 ### Bienvenida
 
-  ![Bienvenida](img/bienvenida.PNG)
+  ![Bienvenida](img/bienvenida1.PNG)
 
 ### Ingreso de Texto
-  ![Bienvenida](img/wifi2.PNG)
+  ![Bienvenida](img/pantalla2.PNG)
 
 ### Muestra el Resultado del Incriptado
-  ![Bienvenida](img/wifi3.PNG)
+  ![Bienvenida](img/pantalla3.PNG)
 
 **`INVESTIGACION UX`**:
 
@@ -26,5 +26,12 @@ Para alguna personas es tedioso crear Contraseñas de WIFI, no toman en cuenta l
   - **RESUMEN :** Despues de consultar con mi Squad y 2 amigas de otro Squad, me recomendaron no considerar el usuario porque no tengo un grupo de usuarios especificos, ya que la aplicacion es libre, tambien considere agregar texto al inicio para que el usuario tenga nocion de que trata la aplicacion, mejore algunos botones y le di mas interaccion.
 
   -- **PROTOTIPO FINAL EN BALSAMIQ**
-  ![Bienvenida](img/wifi.PNG) 
+  ### Ingresa Contraseña
+  ![Bienvenida](img/bienvenida.PNG) 
+  ### Ingreso de Texto
+  ![Bienvenida](img/wifi2.PNG)
+
+  ### Muestra el Resultado del Incriptado
+  ![Bienvenida](img/wifi3.PNG)
+
 
