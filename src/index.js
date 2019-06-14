@@ -6,7 +6,7 @@ ingreso.addEventListener('click',(evento)=>{
     evento.preventDefault();
 const clave= document.getElementById("secreto").value;
 if (clave === claveCorecta){
-        document.body.style.backgroundImage = "url(../img/imagen2.jpg)";
+        document.body.style.backgroundImage = "url(../img/imagen4.jpg)";
         document.getElementById('page1').classList.add('hide');
         document.getElementById('page2').classList.remove('hide');
         document.getElementById('page3').classList.add('hide');
@@ -38,7 +38,7 @@ descifrar.addEventListener('click',()=>{
     const numero= parseInt(document.getElementById('escala').value);
     //conexion con el cipher
     let result = cipher.decode(numero,texto);
-    document.body.style.backgroundImage="url(../img/imagen4.jpg)";
+    document.body.style.backgroundImage="url(../img/imagen3.jpg)";
     document.getElementById('page3').classList.remove('hide');
     document.getElementById('page2').classList.add('hide');
     document.getElementById('resultado').value=result;
