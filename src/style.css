@@ -1,7 +1,6 @@
 h1{
     text-align: center;
     font-size: 85px;
-    -webkit-text-stroke: 0.2px #ffffffbf;
 }
 body{
     margin: 0;
@@ -17,11 +16,9 @@ body{
     background:#4ae87a66;
     color:#204282;
     top: 250px;
-    left: 34%;
-    bottom: 100%;
-    position: absolute;
     box-sizing: border-box;
     padding: 30px 30px;
+    margin: 0 auto;
 }
 .logo{
     width: 100px;
@@ -79,10 +76,7 @@ input{
     background: #8079de59;
     width: 650px;
     color:#204282;
-    top: 250px;
-    left: 26%;
-    bottom: 100%;
-    position: absolute;
+    margin: 0 auto;
     box-sizing: border-box;
     padding: 30px 30px;
 }
@@ -108,16 +102,13 @@ input{
 .mensaje p{
     display: inline-block;
     margin-left: 50px;
-    COLOR: antiquewhite;
+    color:#0812d6;
 }
 .resultado{
     height: 320px;
     background-image: linear-gradient(132deg, #ab2518 0%, #3966e48c 100%);
     width: 700px;
-    top: 250px;
-    left: 25%;
-    bottom: 100%;
-    position: absolute;
+    margin: 0 auto;
     box-sizing: border-box;
     padding: 30px 30px;
 }
@@ -156,5 +147,41 @@ textarea{
 footer{
     text-align: -webkit-right;
     padding-top: 310px;
-    color: #ffffff;
 }
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 28px;
+        margin: 40px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: -10px;
+     }
+    .login{
+        width: 320px;
+        height: 320px;
+     }
+     .mensaje {
+        height: 390px;
+        background: #8079de59;
+        width: 350px;
+        color: #204282;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 30px 30px;
+    }
+    .btn{
+        float: RIGHT;
+        width: 30%;
+    }
+    .resultado{
+        height: 320px;
+        width: 700px;
+        top: 250px;
+    }
+     footer{
+        text-align: -webkit-right;
+     }
+    }

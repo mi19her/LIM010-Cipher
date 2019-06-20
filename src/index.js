@@ -34,7 +34,7 @@ cifrar.addEventListener('click',()=>{
 });
 const descifrar=document.getElementById('descifrar');
 descifrar.addEventListener('click',()=>{
-    const texto= document.getElementById('ingresaTexto').value.toUpperCase();
+    const texto= document.getElementById('ingresaTexto').value;
     const numero= parseInt(document.getElementById('escala').value);
     //conexion con el cipher
     let result = cipher.decode(numero,texto);
