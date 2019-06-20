@@ -5,11 +5,21 @@ h1{
 body{
     margin: 0;
     padding: 0;
-    background: url(../img/fondo.jpg)center no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Merienda', cursive;
     height:100vh;    
     }
+.login-bg {
+    background-image: url(../img/fondo.jpg);
+}
+.mensaje-bg {
+    background-image: url(../img/imagen4.jpg);
+}
+.resultado-bg{
+    background-Image:url(../img/imagen3.jpg);
+}
 .login{
     width: 420px;
     height: 320px;
@@ -65,7 +75,7 @@ input{
     border: none;
     border-bottom: 1px solid #ffffff;
     background: transparent;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     font-family:'Merienda', cursive;
     display: inline-block;
@@ -146,9 +156,8 @@ textarea{
 }
 footer{
     text-align: -webkit-right;
-    padding-top: 310px;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
     h1 {
         font-size: 28px;
         margin: 40px;
@@ -165,23 +174,18 @@ footer{
      }
      .mensaje {
         height: 390px;
-        background: #8079de59;
         width: 350px;
-        color: #204282;
-        margin: 0 auto;
-        box-sizing: border-box;
-        padding: 30px 30px;
     }
     .btn{
         float: RIGHT;
-        width: 30%;
+        width: 40%;
     }
     .resultado{
-        height: 320px;
-        width: 700px;
-        top: 250px;
+        height: 360px;
+        width: 400px;
     }
-     footer{
-        text-align: -webkit-right;
-     }
+    .boton{
+        float: left;
+        width: 24%;
     }
+}

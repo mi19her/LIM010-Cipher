@@ -1,3 +1,20 @@
+const NextPage = ()=>{
+    document.getElementById('page2').classList.add('hide');
+    document.getElementById('page3').classList.remove('hide');
+}
+const NextPage3 = ()=>{
+    document.getElementById('page1').classList.add('hide');
+    document.getElementById('page2').classList.remove('hide');
+    document.getElementById('page3').classList.add('hide');
+}
+const cambiarFondo=()=>{
+    document.body.classList.remove('login-bg');
+    document.body.classList.add('mensaje-bg');  
+}
+const cambiarFondo2=()=>{
+    document.body.classList.remove('login-bg');
+    document.body.classList.add('resultado-bg');
+}
 const claveCorecta= "LABORATORIA";
 let intento = 0;
 //funcion lee clave corecta 
@@ -6,10 +23,8 @@ ingreso.addEventListener('click',(evento)=>{
     evento.preventDefault();
 const clave= document.getElementById("secreto").value;
 if (clave === claveCorecta){
-        document.body.style.backgroundImage = "url(../img/imagen4.jpg)";
-        document.getElementById('page1').classList.add('hide');
-        document.getElementById('page2').classList.remove('hide');
-        document.getElementById('page3').classList.add('hide');
+        cambiarFondo();
+        NextPage3();
 } //segundo intento clave incorecta
 else{
     if ( intento<2){
@@ -27,9 +42,8 @@ cifrar.addEventListener('click',()=>{
     const numero= parseInt(document.getElementById('escala').value);
     //conexion con el cipher
    let result = cipher.encode(numero, texto);
-    document.body.style.backgroundImage = "url(../img/imagen3.jpg)";
-    document.getElementById('page3').classList.remove('hide');
-    document.getElementById('page2').classList.add('hide');
+    cambiarFondo2();
+    NextPage();
     document.getElementById('resultado').value=result;
 });
 const descifrar=document.getElementById('descifrar');
@@ -38,9 +52,8 @@ descifrar.addEventListener('click',()=>{
     const numero= parseInt(document.getElementById('escala').value);
     //conexion con el cipher
     let result = cipher.decode(numero,texto);
-    document.body.style.backgroundImage="url(../img/imagen3.jpg)";
-    document.getElementById('page3').classList.remove('hide');
-    document.getElementById('page2').classList.add('hide');
+    cambiarFondo2();
+    NextPage();
     document.getElementById('resultado').value=result;
 });
 const copiar=document.getElementById('copiar');
@@ -52,12 +65,9 @@ copiar.addEventListener('click',(evento)=>{
 }) 
 const volver=document.getElementById('volver');
 volver.addEventListener('click',(evento)=>{
-    document.getElementById('ingresaTexto').value ='';
-    document.getElementById('resultado').value='';
+    document.getElementById('ingresaTexto','resultado').value ='';
     document.getElementById('escala').value=1;
     evento.preventDefault();
-    document.body.style.backgroundImage="url(../img/imagen4.jpg)";
-    document.getElementById('page1').classList.add('hide');
-    document.getElementById('page3').classList.add('hide');
-    document.getElementById('page2').classList.remove('hide');
+    cambiarFondo();
+    NextPage3();
 })
