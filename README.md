@@ -1,37 +1,38 @@
-# EncriptaWIFI
+# YourMovie
 
-## Resumen
+Esta aplicacion contiene peliculas de todo genero. Esta información ayuda a visualizar por categoria las peliculas. 
 
-Para alguna personas es tedioso crear Contraseñas de WIFI, no toman en cuenta la seguridad y utilizan contraseñas comunes y muy faciles de suponer que culaquier persona podrian acceder a su red.
+- La imagen final de tu proyecto.
 
-### Bienvenida
+## Investigacion UX 
+  ### Usuarios
+  - Nuestros usuarios son todas las personas interesadas al entretenimiento que muestran interés por las peliculas de acción, terror, comedia, aventura.
+  ### Producto
+  - Esta aplicación te facilita la búsqueda de la película de tu interés, mostrando datos con titulo, año, tipo y el poster por esto la información es verás y real. Teniendo esta información, como usuario, te permitirá vizualizar las películas en tiempo real.
 
-  ![Bienvenida](img/bienvenida1.PNG)
-
-### Ingreso de Texto
-  ![Bienvenida](img/pantalla2.PNG)
-
-### Muestra el Resultado del Incriptado
-  ![Bienvenida](img/pantalla3.PNG)
-
-**`INVESTIGACION UX`**:
-
-  - **USUARIOS:** Personas que comparten internet,    con sus amigos o grupos de trabajo, que utilizan diferentes dispositivos.
-  
-  - **PRODUCTO:** Mediante la aplicacion el usuario tendra la facilidad de copiar contraseñas seguras para compartir su red con sus amigos, usando distintos desplazamientos e igresando un texto simple.
-
-  - **PROTOTIPO EN PAPEL**
-  ![Bienvenida](img/prototipo.jpg)
- 
-  - **RESUMEN :** Despues de consultar con mi Squad y 2 amigas de otro Squad, me recomendaron no considerar el usuario porque no tengo un grupo de usuarios especificos, ya que la aplicacion es libre, tambien considere agregar texto al inicio para que el usuario tenga nocion de que trata la aplicacion, mejore algunos botones y le di mas interaccion.
-
-  -- **PROTOTIPO FINAL EN BALSAMIQ**
-  ### Ingresa Contraseña
-  ![Bienvenida](img/bienvenida.PNG) 
-  ### Ingreso de Texto
-  ![Bienvenida](img/wifi2.PNG)
-
-  ### Muestra el Resultado del Incriptado
-  ![Bienvenida](img/wifi3.PNG)
+  ### Prototipo de Baja Fidelidad en Desktop
+   
+   !["Vistas de la aplicacion en Desktop"](im/desktop.PNG)
 
 
+  - Foto del primer prototipo de baja fidelidad (mobile 
+  y desktop) en papel.
+
+   ### Prototipo de Baja Fidelidad en Mobile
+   !["Vistas de la aplicacion en Mobile"](im/mobile.PNG)
+
+  - **`Feedback`**: 
+    Cuando terminamos el prototipo de baja fidelidad los testeamos con amigos, nos recomendaron agregar algunos estilos para que la pagina sea mas profesional.
+    Nos recomendaron trabajar con colores que contrastan mejor con el tema Banco Mundial, tambien poner menos texto en la vista 1(Inicio).  
+
+  - Imagen y link del prototipo de alta fidelidad final (mobile y desktop) en 
+  Figma.
+
+ ### Prototipo de Alta Fidelidad en Mobile
+ !["Vistas de la aplicacion en Mobile"](im/mobileVista.PNG)
+
+ ### Prototipo de Alta Fidelidad en Mobile
+ !["Vistas de la aplicacion en Mobile"](im/vistadesktop.PNG)
+
+ link de figma: 
+ https://www.figma.com/file/ycgdxAYyoWP7yY0pENfyms/bank-mundial?node-id=488%3A0
